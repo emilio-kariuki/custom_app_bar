@@ -7,7 +7,7 @@ class BuildContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blueGrey[900],
+      
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
       ),
