@@ -12,7 +12,7 @@ class Full extends StatelessWidget {
       child: GestureDetector(
         onTap: func,
         child: BuildContainer(
-          child: Image.asset(iconUrl,color: const Color.fromRGBO(224 ,232, 243,1))
+          child: Image.asset(iconUrl,color: const Color.fromRGBO(19, 19, 38, 1))
         ),
       ),
     );
