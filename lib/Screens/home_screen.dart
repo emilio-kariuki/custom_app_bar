@@ -13,13 +13,15 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Full(
-          iconUrl: "assets/pin.png",
-          func: (){
-            setState(() {
-              ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Pin pressed"),backgroundColor: Colors.red));
-            });
-          }) ,),
+        child: Center(
+          child: Full(
+            iconUrl: "assets/pin.png",
+            func: (){
+              setState(() {
+                ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Pin pressed"),backgroundColor: Colors.red));
+              });
+            }),
+        ) ,),
     );
   }
 }
